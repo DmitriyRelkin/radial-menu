@@ -1,0 +1,21 @@
+{
+  "name": "radial-menu",
+  "authors": [
+    "jc_drelkin <drelkin@justcoded.co>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Snap.svg": "snap.svg#^0.5.1",
+    "normalize-css": "^7.0.0"
+  }
+}

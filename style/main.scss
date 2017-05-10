@@ -1,0 +1,38 @@
+.radial-menu, .inner-menu {
+  list-style-type: none;
+  width: 170px;
+  text-align: center;
+  padding: 0;
+  margin-left: 4%;
+  .inner-menu-item {
+    cursor: pointer;
+    -webkit-box-shadow: inset 0px 0px 21px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 21px -5px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 21px -5px rgba(0,0,0,0.75);
+    position: relative;
+    color: #646464;
+    padding: 11px 13px;
+    .inner-menu {
+      position: absolute;
+      bottom: -1px;
+      left: 100%;
+    }
+  }
+}
+.inner-menu {
+    display: none;
+}
+.inner-menu-item.open-item > .inner-menu {
+  display: block !important;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+#svg {
+  height: 300px;
+  width: 600px;
+}
+svg {
+  transform-origin: 50% 50% 0px;
+}
